@@ -1,0 +1,17 @@
+print('Operadores Aritméticos')
+print(5 + 2, ' - Adição')
+print(5 - 2, ' - Subtração')
+print(5 * 2, ' - Multiplicação')
+print(5 / 2, ' - Divisão')
+print(5 ** 2, ' - Potencia')
+print(5 // 2, ' - Divisão Inteira')
+print(5 % 2, ' - Resto da Divisão')
+
+print()
+
+print('Ordem de Precedência')
+print('Quando tiver estas precedencias dos operadores, tem que sempre ler em primeiro, nesta ordem. Forma da leitura é da direita para a esquerda')
+print('1º ()')
+print('2º **')
+print('3º *, /, //, %')
+print('4º +, -')
