@@ -1,3 +1,4 @@
+# Estudar NumPy, OpenCV e PyTorch no Python
 # Configuração para quando não estiver configurado na maquina
 
 - git config --global user.name "nome de usuário do github"
