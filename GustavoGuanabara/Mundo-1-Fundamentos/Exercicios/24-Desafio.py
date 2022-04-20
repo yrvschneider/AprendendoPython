@@ -10,3 +10,8 @@ if(n2 == True):
     print('Nome da cidade inicia com SANTO')
 else:
     print('Nome da cidade não inicia com SANTO')
+
+# Formato do professor
+
+# cidade = str(input('Digite um nome de uma cidade: ')).strip()
+# print(cidade[:5].upper() == 'SANTO')

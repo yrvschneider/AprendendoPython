@@ -4,9 +4,7 @@
 # Primeiro: Ana
 # Ultimo: Souza
 
-nome = 'Yuri Ricardo Verardo Schneider'
-n = nome.split()
+nome = 'Yuri Ricardo Verardo Schneider'.strip().split()
 
-
-print('Primeiro nome: {}'.format(n[0]))
-print('Ultimo nome: {}'.format(n[-1]))
+print('Primeiro nome: {}'.format(nome[0]))
+print('Ultimo nome: {}'.format(nome[-1]))
