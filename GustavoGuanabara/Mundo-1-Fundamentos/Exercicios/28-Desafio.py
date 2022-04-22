@@ -10,3 +10,18 @@ if(n1 == n2):
     print('Número escolhido {}, Número Sorteado {}. Você Ganhou!'.format(n1,n2))
 else:
     print('Número escolhido {}, Número Sorteado {}. Você Perdeu!'.format(n1,n2))
+
+# Formula do Professor
+
+# from random import randint
+# from time import sleep
+
+# computador = randint(0,5) # Faz o computador pensar 
+# jogador = int(input('Em que número eu pensei? '))
+# print('PROCESSANDO...')
+# sleep(2)
+
+# if jogador == computador:
+#     print('PARABENS! Você ganhou!')
+# else:
+#     print('GANHEI! Eu pensei no número {}'.format(computador))
