@@ -18,5 +18,7 @@ pali = frase[::-1]
 
 if pali == frase:
     print('É um Palíndromo!')
+    print(pali)
 else:
     print('Não é um Palíndromo!')
+    print(pali)
