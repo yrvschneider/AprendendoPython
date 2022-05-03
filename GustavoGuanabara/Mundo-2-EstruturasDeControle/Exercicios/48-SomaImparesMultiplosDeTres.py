@@ -2,3 +2,6 @@
 # todos os números impares que são múltiplos 
 # de três e que se encontram no intervalo 
 # de 1 até 500.
+
+for i in range(0, 500, +3):
+    print(i)

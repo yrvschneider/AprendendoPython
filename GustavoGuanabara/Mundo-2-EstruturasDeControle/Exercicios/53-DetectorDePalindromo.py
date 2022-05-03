@@ -11,3 +11,12 @@
 # A sacada da casa
 # O lobo ama o bolo
 # Anotaram a data da maratona
+
+print('Digite uma Frase para ver se ela é um Palíndromo.')
+frase = str(input('Digite: ').upper().replace(' ', ''))
+pali = frase[::-1]
+
+if pali == frase:
+    print('É um Palíndromo!')
+else:
+    print('Não é um Palíndromo!')
