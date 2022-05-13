@@ -4,7 +4,14 @@
 # Primeiro: Ana
 # Ultimo: Souza
 
-nome = 'Yuri Ricardo Verardo Schneider'.strip().split()
+from gettext import find
 
-print('Primeiro nome: {}'.format(nome[0]))
-print('Ultimo nome: {}'.format(nome[-1]))
+
+nome = str(input('Nome: ')).split()
+
+pNome = nome[0]
+uNome = nome[-1]
+print('''
+Primeiro nome: {}
+Ultimo nome: {}
+'''.format(pNome,uNome))

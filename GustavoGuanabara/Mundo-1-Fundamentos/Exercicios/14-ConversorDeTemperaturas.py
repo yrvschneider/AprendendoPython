@@ -1,6 +1,7 @@
 # Escreva um programa que converta uma temperatura digitada em °C e converta para °F.
 
-c = float(input('Digite a temperatura em °C: '))
-f = (c * 9/5) + 32
+c = float(input('temperatura em Grau Celsius: '))
 
-print('A temperatura em {} °C convertida para {} °F'.format(c,f))
+f = (c * 9/5)+32
+
+print('Graus Celsius {:.1f}°C para Fahrenheit é {:.1f}°F'.format(c,f))

@@ -8,13 +8,22 @@
 
 from datetime import date
 
-ano = int(input('Informe ano de nascimento: '))
+nome = str(input('Nome: '))
+anoNascimento = int(input('Ano de Nascimento: '))
 
-alistamento = date.today().year - ano
+alistamento = date.today().year - anoNascimento
 
-if alistamento < 18:
-    print('Ainda falta {} anos para se Alistar no Serviço Militar.'.format(18 - alistamento))
-elif alistamento == 18:
-    print('Já é hora de se Alistar no Serviço Militar. Você já tem {} anos'.format(alistamento))
-else:
-    print('Você já passou do tempo de se Alistar no Serviço Militar.')
+if alistamento == 18:
+    print('É hora de se alistar no serviço militar.')
+elif alistamento < 18:
+    print('Ainda falta para se alistar no serviço militar.')
+    if alistamento == 1:
+        print('Falta {} ano para se alistar.'.format(alistamento))
+    elif alistamento > 18:
+        print('Falta {} anos para se alistar.'.format(alistamento))
+elif alistamento > 18:
+    print('Já passou da idade de se alistar no serviço militar.')
+    if alistamento == 19:
+        print('Você passou {} ano do alistamento.'.format(alistamento))
+    elif alistamento > 19:
+        print('Você passou {} anos do alistamento.'.format(alistamento))

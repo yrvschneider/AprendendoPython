@@ -2,9 +2,21 @@
 # Para salarios superiores a R$1.250.00, calcule um aumento de 10%.
 # Para os inferiores ou iguais, o aumento é de 15%.
 
-salario = float(input('Digite o Salario para ver o seu aumento: '))
+salario = float(input('Salario: '))
 
-if(salario > 1250.00):
-    print('Seu salario terá 10% de aumento saidno de {:.2f} para R${:.2f}, tendo R${:.2f} de aumento.'.format(salario,salario+(salario*(10/100)),salario*(10/100)))
-elif(salario <= 1250.00):
-    print('Seu salario terá 15% de aumento saidno de {:.2f} para R${:.2f}, tendo R${:.2f} de aumento.'.format(salario,salario+(salario*(15/100)),salario*(15/100)))
+base = 1250
+
+if salario > base:
+    aumento = salario+(salario*(10/100))
+    print('''
+    Seu salario atual R${:.2f}
+    Ira receber 10% de aumento, equivalente a R${:.2f}
+    Seu aumento para próximo mês R${:.2f}
+    '''.format(salario,aumento-salario,aumento))
+elif salario <= base:
+    aumento = salario+(salario*(15/100))
+    print('''
+    Seu salario atual R${:.2f}
+    Ira receber 15% de aumento, equivalente a R${:.2f}
+    Seu aumento para próximo mês R${:.2f}
+    '''.format(salario,aumento-salario,aumento))

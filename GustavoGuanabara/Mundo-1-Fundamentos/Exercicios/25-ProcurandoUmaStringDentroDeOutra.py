@@ -1,16 +1,10 @@
 # Crie um programa que leia um nome de uma pessoa e diga se ela tem "Silva" no nome.
 
-nome = input('Digite seu nome completo: ')
+nome = 'Leticia carreira da Silva'.lower()
 
-n1 = nome.lower()
-n2 = 'silva' in n1
+tem = 'silva' in nome
 
-if(n2 == True):
-    print('Nome mencionado tem Silva')
+if tem == True:
+    print('Este nome tem Silva!')
 else:
-    print('Nome mencionado não tem Silva')
-
-# Fromato do Professor
-
-# nome = str(input('Digite seu nome: ')).strip()
-# print('Seu nome tem Silva? {}'.format('SILVA' in nome.upper()))
+    print('Este nome não contem Silva!')

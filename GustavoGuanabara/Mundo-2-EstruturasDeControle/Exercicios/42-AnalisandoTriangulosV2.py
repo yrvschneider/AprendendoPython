@@ -4,17 +4,17 @@
 # Isósceles: dois lados iguais
 # Escaleno: todos os lados diferentes
 
-r1 = float(input('Comprimento da Primeira Reta: '))
-r2 = float(input('Comprimento da Segunda Reta: '))
-r3 = float(input('Comprimento da Terceira Reta: '))
+reta1 = float(input('Primeira Reta: '))
+reta2 = float(input('Segunda Reta: '))
+reta3 = float(input('Terceira Reta: '))
 
-if r1 < r2 + r3 and r2 < r1 + r3 and r3 < r1 + r2:
-    print('Forma um Triangulo!')
-    if r1 == r2 and r1 == r3:
-        print('Equilátero: todos os lados iguais')
-    elif r1 == r2 or r1 == r3 or r2 == r3:
-        print('Isósceles: dois lados iguais')
-    else:
-        print('Escaleno: todos os lados diferentes')
+if reta1 < reta2+reta3 and reta2 < reta1+reta3 and reta3 < reta1+reta2:
+    print('Forma um Triangulo')
+    if reta1 == reta2 and reta2 == reta3:
+        print('Equilátero: Quando todos os lados do triangulo são iguais.')
+    elif reta1 != reta2 and reta2 != reta3 and reta1 != reta3:
+        print('Escaleno: Quando todos os lados do tringulo é diferentes.')
+    elif reta1 == reta2 or reta1 == reta3 or reta2 == reta3:
+        print('Isóceles: Quando tem dois lados iguais no triangulo.')
 else:
-    print('Não forma um Triangulo!')
+    print('Não forma um triangulo.')

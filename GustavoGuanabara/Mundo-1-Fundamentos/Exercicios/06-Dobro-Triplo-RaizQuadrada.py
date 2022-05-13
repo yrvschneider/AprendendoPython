@@ -1,7 +1,12 @@
 # Crie um algoritimo que leia um número e mostre o seu dobro, triplo e rais quadrada.
 
-entrada = int(input('Digite um número: '))
+import math
 
-print('O dobro do número é ', entrada*2)
-print('O triplo do número é ', entrada*3)
-print('A raiz quadrada do número é ', entrada**0.5)
+
+n = int(input('Número: '))
+print('''
+    Número: {}
+    Dobro: {}
+    Tripo: {}
+    Raiz Quadrada: {:.1f}
+'''.format(n,n*2,n*3, math.sqrt(n)))

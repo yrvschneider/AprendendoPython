@@ -1,8 +1,9 @@
 # Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
 
-print('Digite as duas notas do aluno')
-nota1 = float(input('Primeira nota: '))
-nota2 = float(input('Segunda nota: '))
-
-media = (nota1 + nota2) / 2
-print('A media do aluno é {}'.format(media))
+n1 = float(input('1º Nota: '))
+n2 = float(input('2º Nota: '))
+print('''
+    1º Nota {}
+    2º Nota {}
+    Media {}
+'''.format(n1,n2,(n1+n2)/2))
