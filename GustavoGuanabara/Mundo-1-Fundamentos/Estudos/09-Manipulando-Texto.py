@@ -36,6 +36,7 @@ print(frase1)
 print(frase1.strip()) # Utilizando o strip. ele ira retirar os espaços não utei. deixando somente os espaços entre as palavras.
 print(frase1.rstrip()) # Se colocarmos o r (right) no inicio do strip, ele retira os espaços somente pela direito.
 print(frase1.lstrip()) # Se colocarmos o l (left) no incio do strip, ele ira retirar os espaços do inicio da frase.
+print(frase1[::-1]) # Isso ira inverter a frase ou palavra digitada, ai podeos ler ela de trás para frente. 
 
 # Divisão
 
