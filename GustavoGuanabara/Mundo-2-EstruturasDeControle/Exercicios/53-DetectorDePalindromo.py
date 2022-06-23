@@ -12,16 +12,3 @@
 # O lobo ama o bolo
 # Anotaram a data da maratona
 
-entrada = 'Apos a Sopa'
-
-fraseManipulada = entrada.upper().strip().replace(' ', '')
-fraseInvertida = fraseManipulada[::-1]
-
-if fraseManipulada == fraseInvertida:
-    print('''
-    É uma frase Palíndromo!
-    Frase digitada: {}
-    Frase invertida: {}
-    '''.format(entrada, fraseInvertida))
-else:
-    print('Não é uma frase Palíndromo!')

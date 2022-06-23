@@ -2,11 +2,11 @@
 
 import math
 
+n = int(input('Digite um número: '))
 
-n = int(input('Número: '))
 print('''
-    Número: {}
-    Dobro: {}
-    Tripo: {}
-    Raiz Quadrada: {:.1f}
-'''.format(n,n*2,n*3, math.sqrt(n)))
+Entrada: {}
+Dobro: {}
+Triplo: {}
+Raiz Quadrada: {}
+'''.format(n, n*2, n*3, math.sqrt(n)))

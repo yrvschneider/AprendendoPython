@@ -4,14 +4,3 @@
 # Primeiro: Ana
 # Ultimo: Souza
 
-from gettext import find
-
-
-nome = str(input('Nome: ')).split()
-
-pNome = nome[0]
-uNome = nome[-1]
-print('''
-Primeiro nome: {}
-Ultimo nome: {}
-'''.format(pNome,uNome))
