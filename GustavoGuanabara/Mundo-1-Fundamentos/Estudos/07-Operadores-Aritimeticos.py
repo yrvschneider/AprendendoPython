@@ -26,6 +26,11 @@ e = n1 ** n2
 print('A soma é {}, a multiplicação é {} e a divisão é {:.2f}'.format(s,m,d)) # utilizando end='' ele ira juntar o print de baixa com este print, sem quebrar a linha.
 print('Divisão Inteira {} e Potencia {}'.format(di,e))
 
+# Arrendondar um float para int
+import math
+n = float(input('Valor Real: '))
+porcao = math.floor(n)
+print(porcao)
 
 # # Extra
 # nome = 'Yuri'
